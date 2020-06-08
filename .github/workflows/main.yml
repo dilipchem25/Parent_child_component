@@ -41,4 +41,4 @@ jobs:
     - name: Install Surge
       run:  npm install -g surge
     - name: Deploy Surge
-      run:  surge ./build parentchild25.surge.sh --token ${{secrets.surge_token}}
+      run:  surge ./build parentchild26.surge.sh --token ${{secrets.surge_token}}
